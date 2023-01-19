@@ -1,0 +1,61 @@
+.Title {
+    position: fixed;
+    left: 45%;
+}
+
+.All{
+    position: fixed;
+    top: 20%;
+    left: 45%;
+    
+    
+}
+
+footer{
+    position: absolute;
+    top: 90%;
+}
+.Me{
+    padding: 1;
+    position: fixed;
+    left: 80%;
+    top: 30%;
+    border: 5px solid black;
+}
+
+@media screen and (max-width: 768px ){
+    .m{
+      width: 150px;
+      height: 150px;
+    }
+    .All{
+      position: absolute;
+      left: 10%;
+      top: 30%;
+    }
+    .Me img{
+      height: 150px;
+      width: 150px;
+    }
+    
+    .Me{
+      position: absolute;
+      top: 79%;
+      left: 60%;
+    }
+
+    .All img{
+        height: 35px;
+        width: 160px; 
+    }
+     footer{
+         position: absolute;
+         top : 100%;
+    }
+
+    .Title{
+        position: absolute;
+    }
+}
+    
+
